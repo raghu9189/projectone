@@ -1,6 +1,10 @@
 HELP.md
-.mvn
+# Ignore Maven wrapper files
+.mvn/wrapper/
+
+# Ignore macOS .DS_Store file
 .DS_Store
+
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
