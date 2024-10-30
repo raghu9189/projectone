@@ -10,9 +10,8 @@ import java.util.List;
 @Service
 public class ProductService {
 
-    private ProductRepo repo;
+    private final ProductRepo repo;
 
-    @Autowired
     public ProductService(ProductRepo repo){
         this.repo = repo;
     }
